@@ -1,0 +1,299 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: o;
+    padding: o;
+    color:black;
+    text-align: center;
+}
+/* first page */
+.page1{
+    padding: 50px;
+    background-image: url(20250402_130155.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.FHead{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.topleftLogo {
+    color: white;
+    border:2px;
+    border-style: solid;
+    width: 400px;
+    
+    
+}
+.topleftLogo p{
+    color: white;
+}
+
+.top ul{
+    list-style-type: none;
+
+}
+.top li{
+    float: left;
+
+}
+.top li a{
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+    color:white;
+
+}
+.top li a:hover{
+    background-color:cornflowerblue;
+    
+}
+.conMe{
+    border: 2px solid white;
+
+}
+
+.loremlogo{
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url("20250402_130155.jpg");
+    
+
+}
+.lorem{margin-top: 100px;
+text-align: justify;
+color: white;
+padding: 20px;
+}
+.lorem h1{
+    color: white;
+}
+.lorem p{
+    color: white;
+}
+.dollar{
+color: black;
+background: white;
+}
+.readM{
+    width: 110px;
+    height: 50px;
+    border: 2px solid white;
+    background: black;
+    color: white;
+}
+
+/* second page / about me */
+.secondSec
+{
+    padding: 100px;
+    background: white;
+}
+.SHead{
+    display: flex;
+    color:black;
+    background: white;
+    border-bottom: 3px solid black;
+    
+}
+.top4 ul {
+    list-style-type: none;
+}
+.top4 li{
+    float: left;
+
+}
+.top4 li a{
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color:black;
+
+}
+.top4 li a:hover{
+    background-color:cornflowerblue;
+}
+.web2{
+    border: 2px;
+    border-style: solid;
+    text-decoration: none;
+}
+.top4{
+    list-style-type: none;
+}
+
+    
+
+.aboutMe{
+ color: black;   
+}
+.ME{
+    background-color: black;
+    color: white;
+    width: 
+}
+
+p{
+    color: #000;
+}
+
+
+.der{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 50px;
+}
+
+
+/* my service */
+.service{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(20250402_132840.jpg);
+    padding: 100px;
+    
+}
+.service h1{
+    color: white;
+}
+
+.ser{
+    background-color:white;
+    color: black;
+}
+.logo{
+    color: white;
+}
+.serviceContainer{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.logo{
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;}
+.logo p{
+    color: white;
+}
+
+
+/* PORTFOLIO_*/
+.portfolio{
+    padding: 100px;
+}
+
+
+
+.portfolioImages{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    
+}
+
+.portimg{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    margin-top: 16px;
+    border: 3px solid black;
+
+
+
+}
+.listNum{
+    align-items: center;
+    padding: 14px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    
+}
+.li{
+    text-decoration: none;
+    list-style-type: none;
+    border: 3px solid black;
+    width: 70px;
+    height: 25px;
+    
+
+}
+#ll{
+    background-color: #000;
+    color: white;
+}
+.li:hover{
+    background-color: black;
+}
+
+
+
+/* CONTACT*/
+.form{
+
+    padding: 100px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(Screenshot_20250402_133142_Chrome.jpg);
+}
+.form h2{
+    color: white;
+}
+.form span{
+    background-color: white;
+    color: #000;
+}
+.infoForm{
+   
+}
+.form form{
+    background: white;
+    padding:25px 50px 75px 25px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+   
+}
+.form form input, .form form textarea{
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 3px solid black;
+
+}
+.form button{
+    padding: 10px 0;
+    background: black;
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    
+}
+textarea{
+    height: 80px;
+}
+.info p{
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
